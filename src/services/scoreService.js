@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:10000";
+const BASE_URL = "https://aitebet.onrender.com";
 
 export default {
   fetchAllScores: async () => {
