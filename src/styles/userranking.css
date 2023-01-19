@@ -1,0 +1,29 @@
+.row-wrapper {
+  text-align: left;
+  background: rgba(51, 170, 51, .1) ;
+  margin: 8px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  max-width: 100%;
+  
+  
+}
+.spanner {
+  margin-right: 8px;
+  
+
+}
+
+.icon{
+
+}
+
+.icon:hover {
+  opacity: 0.6;
+  scale:1.1
+}

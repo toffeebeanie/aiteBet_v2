@@ -1,0 +1,39 @@
+.landing {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    padding: 5vh 0;
+    height:100%;
+    /* max-height: 100vh; */
+  }
+
+.landing-header {
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  /* color: blue; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
+
+.footer {
+  width: 820px;
+  box-shadow: 20px 20px 20px  black;
+  margin-top: 100px;
+  border-radius: 25px;
+  border: 1px solid black;}
+
+._icon {
+  border: 1px solid black;
+}
+
+.icon_:hover {
+opacity:0.8
+}

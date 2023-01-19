@@ -1,0 +1,72 @@
+.leaderboard-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 820px;
+  max-width: 100%;
+  min-height: 85vh;
+  padding: 50px;
+  box-shadow: 20px 20px 10px black;
+}
+.ranking-header {
+ 
+  text-align: left;
+  background-color: rgba(900, 500, 51, .5);
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  max-width: 100%;
+
+}
+
+.add-button {
+  padding: 10px;
+  width: 200px;
+  align-self: center;
+  margin: 40px 0;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+
+  top: -5px;
+  right: 105%;
+  visibility: hidden;
+  width: 700px;
+  /* background-color: rgba(51, 170, 51, .6); */
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  margin:10px;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  
+}
+
+.icon:hover {
+  opacity: 0.6
+}
